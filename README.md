@@ -4,7 +4,7 @@
 João Victor Siqueira Oliveira — Matrícula 22451816
 
 ## Descrição
-O PokéBusca é uma aplicação web que permite pesquisar Pokémon pelo nome ou número e visualizar informações como imagem, altura, peso, tipos e habilidades.
+O PokéBusca é uma aplicação web simples e responsiva para consulta de informações sobre Pokémon. O usuário pode pesquisar pelo nome ou número e visualizar imagem, altura, peso, tipos e habilidades.
 
 ## API utilizada
 - **PokeAPI**
