@@ -26,7 +26,7 @@ O PokéBusca é uma aplicação web simples e responsiva para consulta de inform
 3. Opcionalmente, use a extensão Live Server do VS Code.
 
 ## Links
-- **Aplicação no ar (GitHub Pages):** https://seu-usuario.github.io/bootcamp2-app/
-- **Repositório:** https://github.com/seu-usuario/bootcamp2-app
+- **Aplicação no ar (GitHub Pages):** https://dojaum.github.io/bootcamp2-app/
+- **Repositório:** https://github.com/Dojaum/bootcamp2-app
 
 > Antes de entregar, substitua os dados do autor e os dois links acima pelos links reais do seu GitHub.
