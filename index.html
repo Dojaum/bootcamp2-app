@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéBusca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="badge">BOOTCAMP II · ETAPA 01</span>
+      <h1>PokéBusca</h1>
+      <p>Pesquise um Pokémon e veja suas principais informações.</p>
+    </header>
+
+    <section class="search-box">
+      <label for="campo-busca">Nome ou número do Pokémon</label>
+      <div class="search-row">
+        <input id="campo-busca" type="text" placeholder="Ex.: pikachu ou 25" autocomplete="off">
+        <button id="botao-buscar">Buscar</button>
+      </div>
+    </section>
+
+    <section id="resultado" class="resultado" aria-live="polite">
+      <div class="empty">
+        <div class="pokeball">●</div>
+        <h2>Pronto para pesquisar</h2>
+        <p>Digite o nome ou número de um Pokémon.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Dados fornecidos pela <a href="https://pokeapi.co/" target="_blank" rel="noopener">PokeAPI</a>.</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
