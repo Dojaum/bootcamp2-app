@@ -234,3 +234,89 @@ a {
     font-size: 30px;
   }
 }
+
+.favoritos-section {
+  margin-top: 30px;
+}
+
+.favoritos-header h2 {
+  margin: 14px 0 6px;
+  font-size: 28px;
+}
+
+.favoritos-header p {
+  margin: 0 0 18px;
+  color: #69758b;
+}
+
+.botao-favoritar {
+  min-height: 48px;
+  margin-top: 20px;
+  padding: 0 22px;
+}
+
+.favoritos-lista {
+  display: grid;
+  gap: 12px;
+}
+
+.favorito-card {
+  background: #fff;
+  border: 1px solid #e1e7f0;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 12px 35px rgba(31, 45, 71, .06);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.favorito-card img {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+  background: #f2f6ff;
+  border-radius: 12px;
+}
+
+.favorito-info {
+  flex: 1;
+}
+
+.favorito-info h3 {
+  margin: 0 0 4px;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.favorito-info p {
+  margin: 0 0 5px;
+  color: #758099;
+  font-weight: 700;
+}
+
+.favorito-info span {
+  color: #4d5870;
+  text-transform: capitalize;
+}
+
+.botao-excluir {
+  min-height: 44px;
+  background: #d94b4b;
+  padding: 0 18px;
+}
+
+.botao-excluir:hover {
+  background: #b93636;
+}
+
+@media (max-width: 650px) {
+  .favorito-card {
+    flex-wrap: wrap;
+  }
+
+  .botao-excluir {
+    width: 100%;
+    min-height: 46px;
+  }
+}
