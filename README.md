@@ -62,5 +62,3 @@ docker run -d -p 8081:80 --name pokebusca-8081 dojaum/pokebusca-etapa02:latest
 ![Favorito na página](evidencias/01-favorito-na-pagina.png)
 
 ![Tabela no Supabase](evidencias/02-tabela-supabase.png)
-
-![Imagem no Docker Hub](evidencias/03-docker-hub.png)
