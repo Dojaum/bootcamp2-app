@@ -9,7 +9,7 @@
 <body>
   <main class="container">
     <header>
-      <span class="badge">BOOTCAMP II · ETAPA 01</span>
+      <span class="badge">BOOTCAMP II · ETAPA 02</span>
       <h1>PokéBusca</h1>
       <p>Pesquise um Pokémon e veja suas principais informações.</p>
     </header>
@@ -30,10 +30,25 @@
       </div>
     </section>
 
+    <section class="favoritos-section">
+      <div class="favoritos-header">
+        <div>
+          <span class="badge">PERSISTÊNCIA</span>
+          <h2>Meus favoritos</h2>
+          <p>Seus Pokémon favoritos ficam salvos no banco de dados.</p>
+        </div>
+      </div>
+      <div id="lista-favoritos" class="favoritos-lista">
+        <div class="empty">
+          <h2>Carregando favoritos...</h2>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <p>Dados fornecidos pela <a href="https://pokeapi.co/" target="_blank" rel="noopener">PokeAPI</a>.</p>
     </footer>
   </main>
-  <script src="script.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>
